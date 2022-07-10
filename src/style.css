@@ -35,6 +35,9 @@ li {
 .container {
     width: 1293px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto; /* aka flex: auto */
 }
 
 .logo-container {
@@ -42,6 +45,7 @@ li {
     display: flex;
     /* text-align: center; this also works */ 
     padding: 20px;
+    flex: auto;
 }
 
 .logo-container img {
